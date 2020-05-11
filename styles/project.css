@@ -1,0 +1,107 @@
+body {
+	font-family: arial, sans-serif;
+	font-size: medium;
+	color: #330066;
+}
+header {
+	background-color: #E5CCFF;
+	padding: 20px;
+	margin: 0;
+}
+
+nav {
+	float: left;
+	width: 100%;
+	background-color: #330066;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+nav li a {
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #CCCCCC;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+nav li a:hover {
+	color: #FFFFFF;
+	background-color: #7F00FF;
+}
+
+nav li a:active {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+nav li a:visited {
+	color: #999999;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 1000px;
+	background: #fff;
+}
+	
+#content {
+	float: left;
+	width: 100%;
+}
+
+#left {
+	float: left;
+	width: 15%;
+	padding: 5px 0;
+	margin: 0 20px;
+	display: inline;
+}
+
+#center {
+	float: left;
+	width: 55%;
+	padding: 5px 0;
+	margin: 0 0 0 30px;
+}
+
+
+#right {
+	float: right;
+	width: 20%;
+	padding: 5px 0;
+	margin: 0 20px 0 0;
+	display: inline;
+}
+
+footer {
+	clear: left;
+	background-color: #E5CCFF;
+	padding: 20px;
+	height: 1%;
+	font-size: .7em;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+.copy {
+	font-size: x-small; text-align: center;
+}
+	
+.center {
+	text-align: center;
+}
